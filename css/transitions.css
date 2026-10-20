@@ -18,7 +18,7 @@ div {
 }
 .moving-img:hover {
   transform: translateY(-30px);
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 10px 20px rgba(29, 68, 20, 0.8));
 }
 
 .rotating-img {
