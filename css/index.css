@@ -1,0 +1,23 @@
+.projektliste {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+
+  li a {
+    display: block;
+    padding: 3rem 2rem;
+    background-color: #f5f2ed;
+    color: #153b23;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+  li a:hover {
+    background-color: #dce3d9;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(33, 54, 42, 0.5);
+  }
+}

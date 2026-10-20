@@ -1,3 +1,15 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 /* .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -27,13 +39,15 @@
 .card button {
   padding: 12px 24px;
   border: none;
-  border-radius: 12px;
+  /* border-radius: 12px;
   cursor: pointer;
 } */
 
-html {
+/* html {
   --generel-border-radius: 12px;
 }
+
+
 
 .cards {
   display: grid;
@@ -66,4 +80,4 @@ html {
   border: none;
   border-radius: var(--generel-border-radius);
   cursor: pointer;
-}
+}  */
