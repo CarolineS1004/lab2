@@ -1,0 +1,49 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+img,
+div {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.moving-img {
+  transition: transform 0.5s ease;
+}
+.moving-img:hover {
+  transform: translateY(-30px);
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+}
+
+.rotating-img {
+  transition: transform 0.5s ease;
+}
+.rotating-img:hover {
+  transform: rotate(50deg);
+}
+
+.cirkle {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #487541;
+  justify-self: center;
+  transition: all 0.5s ease;
+}
+.cirkle:hover {
+  background-color: #d2e337;
+  filter: drop-shadow(0 10px 20px rgba(85, 82, 26, 0.5));
+}
+
+.img-filters {
+  transition: filter 1s ease;
+}
+.img-filters:hover {
+  filter: grayscale(100%) blur(2px) contrast(200%);
+}
